@@ -14,14 +14,25 @@ The framework is optimized for **real-time edge deployment**, allowing for conti
 
 ---
 
-## 🏗️ System Architecture & Workflow
-The framework utilizes a modular Edge Processing Engine (YOLO Inference Core), achieving NMS-free inference on vehicle-mounted hardware for continuous infrastructure scanning.
+## 🏗️ System Architecture
+The framework follows a modular three-layer architecture: Data Acquisition, Edge Processing (YOLO Inference), and User Interface (Streamlit).
 
 ![System Architecture](Figure_3.1_System_Architecture.png)
+
+## 🔄 Methodology & Workflow
+Our pipeline ensures real-time performance by utilizing NMS-free inference (YOLOv10/v11), significantly reducing latency on edge devices.
 
 ![Workflow](Figure_3.3_Workflow.png)
 
 ---
+
+## ✨ Key Features
+- **🚀 Real-Time Inference:** Optimized for high-speed detection (up to 150 FPS).
+- **📍 GPS Integration:** Automatically logs Latitude/Longitude coordinates of detected road distress.
+- **📊 Interactive Dashboard:** Built with Streamlit for live monitoring and data visualization.
+- **🛠️ Multi-Model Support:** Easily toggle between YOLOv8, YOLOv10, and YOLOv11 for performance benchmarking.
+- **📥 Report Generation:** Export findings into a CSV/Excel format for municipal action.
+
 
 ## 🖼️ Detection Results
 | Input Frame | AI Detection Overlay |
