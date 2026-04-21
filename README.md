@@ -17,7 +17,7 @@ The framework is optimized for **real-time edge deployment**, allowing for conti
 ## 🏗️ System Architecture
 The framework follows a modular three-layer design: Data Acquisition, a high-performance Edge Processing Engine (YOLO Inference Core), and an interactive Streamlit UI.
 
-![System Architecture](assets/Figure_3.1_System_Architecture.png)
+![System Architecture](Road Damage Detection/images/Figure_3.1_System_Architecture.png)
 
 ## 🔄 Methodology & Workflow
 Our pipeline ensures low-latency performance by utilizing an **NMS-free inference workflow** (YOLOv10/v11), significantly reducing the post-processing bottleneck on computational hardware.
