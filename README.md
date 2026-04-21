@@ -48,3 +48,6 @@ Ensure you have the model weights (`best.pt`) in the root directory.
    ```bash
    git clone [https://github.com/saikiranthipirisetti/Road-Damage-Detection-AI.git](https://github.com/saikiranthipirisetti/Road-Damage-Detection-AI.git)
    cd Road-Damage-Detection-AI
+   pip install -r requirements.txt
+   streamlit run app.py
+   
