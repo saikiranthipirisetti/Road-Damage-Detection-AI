@@ -1,0 +1,12 @@
+ultralytics==8.3.0
+torch>=2.0.0
+fastapi
+uvicorn
+opencv-python
+streamlit
+requests
+numpy
+Pillow
+python-multipart
+ipykernel
+opencv-python
